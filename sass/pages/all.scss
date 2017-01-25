@@ -1,0 +1,455 @@
+// =================================================================
+// 	Mediapreview
+// 	Page Specific Styling
+// =================================================================
+
+// 	Homepage
+// =================================================================
+
+.home {
+
+	.hero h2 {
+		text-align: center;
+	}
+
+	.discovery {
+		h1 {
+			padding: 10px 0;
+		}
+	}
+	.video {
+		h4 {
+			font-size: 1.424em;
+		}
+	}
+}
+
+// 	Video Production
+// =================================================================
+
+.about {
+	.hero {
+		h2 {
+			font-size: 1.4em;
+		}
+
+		@include mq("super-small", "max-width") {
+			font-size: 0.9em;
+		}
+	}
+}
+
+// 	Tutorial
+// =================================================================
+
+.tutorials {
+	.hero p {
+		color: #fff;
+		text-align: center;
+
+		a {
+			color: #fff;
+			border-bottom: 2px solid #fff;
+		}
+	}
+
+	@include mq("small", "max-width") {
+		.hero p {
+			text-align: left;
+			width: 220px;
+		}
+	}
+}
+
+// 	Movie
+// =================================================================
+
+
+@include mq("small", "max-width") {
+	.movie .discovery .row .col-4:last-child {
+		display: none;
+	}
+}
+
+// 	Movies
+// =================================================================
+
+.movies .movie-picker-item p {
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
+.movies .hero h2 {
+	font-size: 1.3em;
+}
+
+// 	Distress
+// =================================================================s
+
+.distress {
+
+	.video h4 {
+		margin-bottom: 20px;
+	}
+
+	.video .link-btn-two h4 {
+		color: $colorType;
+	}
+
+	.price {
+		float: left;
+		margin-left: 20px;
+		opacity: 1;
+		padding-top: 13px;
+	}
+
+	.link-btn-one {
+		float: left;
+		background: #fff;
+		color: $colorType;
+	}
+
+	.video {
+		padding-bottom: 25px;
+		padding-top: 120px;
+	}
+
+	h3 {
+		color: #fff;
+		margin-bottom: 25px;
+	}
+
+	h2 {
+		padding-bottom: 0px;
+		margin-top: -5px;
+	}
+
+	p {
+		padding-bottom: 20px;
+	}
+
+	.link-btn-two h3 {
+		font-size: 1.2em;
+		margin-bottom: 10px;
+	}
+
+	.link-btn-two h4 {
+		margin-bottom: 0px;
+	}
+
+	.link-one {
+		display: block;
+		margin-top: 13px;
+		width: intrinsic;
+		float: left;
+	}
+
+	.longform h4 {
+		padding-top: 0;
+	}
+
+	.hero {
+		padding: 50px 0 0 0;
+
+		h1 {
+			color: #fff;
+			position: relative;
+			text-align: center;
+			z-index: 10;
+		}
+
+
+		h4 {
+			color: #fff;
+			opacity: 1;
+			z-index: 10;
+			position: relative;
+			line-height: 1.4em;
+			text-align: center;
+		}
+
+		h2 {
+			position: relative;
+			z-index: 10;
+		}
+
+		.row {
+			padding-bottom: 75px;
+
+			&:first-child {
+				padding-bottom: 50px;
+			}
+		}
+	}
+
+	.movie-picker {
+		h3 {
+			color: $colorType;
+		}
+
+		h5 {
+			float: left;
+			margin-top: 20px;
+			border: 1px solid $colorGrey;
+		}
+
+		&:hover h5 {
+			background: #fff;
+			border: 1px solid $colorGrey;
+			color: $colorType;
+		}
+
+		h5.link-btn-fake {
+			float: right;
+			@include border-radius(2px);
+			background: #fff;
+			color: $colorType;
+			display: block;
+			width: intrinsic;
+			text-align: center;
+			color: $colorType;
+			text-transform: uppercase;
+			font-size: 0.833em;
+			letter-spacing: 1px;
+			background: $colorTwo;
+			border: 0;
+			color: #fff;
+		}
+	}
+
+	@include mq("small", "max-width") {
+
+		.video {
+			padding-top: 70px;
+		}
+
+		.video .link-btn-two img {
+			width: 120%;
+		}
+
+		.video a.right-link {
+			margin-right: 0;
+		}
+
+		.video .col-6 {
+			width: 100%;
+		}
+
+		.video .col-6 h2 {
+			margin-top: 30px;
+		}
+	}
+}
+
+// 	Depot
+// =================================================================
+
+.depot {
+	.discovery .discovery-item {
+		margin-bottom: 0;
+
+		img {
+			opacity: 0.9;
+		}
+		
+		@include mq("small", "max-width") {
+			margin-bottom: 30px;
+		}
+	}
+
+	.hero {
+		padding-top: 150px;
+		padding-bottom: 60px;
+
+		.gradient {
+			@include linear-gradient(90deg, rgba(0, 0, 0, 0) 0%,rgba(30, 30, 30, 1) 100%);
+			height: 100%;
+			width: 60%;
+			right: 0;
+			left: auto;
+		}
+
+		img {
+			opacity: 1;
+		}
+
+		.row {
+			margin-top: 0;
+		}
+
+		.col-4 {
+			z-index: 10;
+			float: right;
+			position: relative;
+		}
+
+		h2, p {
+			text-align: left;
+			color: #fff;
+		}
+
+		h2 {
+			margin-bottom: 15px;
+		}
+	}
+
+	.discovery-item h2 {
+		text-transform: normal;
+		top: 74%;
+		z-index: 10;
+	}
+
+	@include mq("small", "max-width") {
+		.hero .col-4 {
+			width: 100%;
+		}
+
+		.hero .gradient {
+			height: 150%;
+			width: 100%;
+			@include linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%,rgba(30, 30, 30, 1) 100%);
+		}
+
+		.col-4 p {
+			font-size: 1.1em;
+		}
+	}
+}
+
+.depot-collection {
+
+	.movie-picker {
+		padding: 0 0 0 0;
+
+		h5 {
+			margin-bottom: 24px;
+		}
+	}
+
+	.image {
+		background: #000;
+	}
+
+	.hero .col-3 {
+		float: left;
+		margin-top: -50px;
+		z-index: 10;
+		position: relative;
+
+		p {
+			color: #fff;
+			font-size: 0.8em;
+		}
+	}
+
+	.video-overlay {
+		position: absolute; 
+		top: 0; 
+		left: 0; 
+		z-index: 10; 
+		width: 100%; 
+		height: 100%; 
+	}
+
+	.link-one {
+		float: right;
+	}
+
+	.link-one {
+		margin-right: 30px;
+	}
+
+	.link-one:last-child {
+		margin-right: 70px;
+	}
+
+	@include mq("small", "max-width") {
+
+		.page-nav a {
+			font-size: 1em;
+		}
+
+		.link-one {
+			float: left;
+			margin-top: 17px;
+		}
+
+		.hero {
+			padding-top: 150px;
+			padding-bottom: 0px;
+		}
+
+		.hero h2 {
+			font-size: 1.6em;
+			padding-bottom: 60px;
+		}
+
+		.hero .col-3 {
+			width: 100%;
+		}
+
+		.hero .col-3 p {
+			font-size: 1em;
+			padding-top: 100px;
+		}
+	}
+}
+
+.contemporary-london {
+	.hero {
+		padding-top: 110px;
+		padding-bottom: 10px;
+	}
+
+	.hero .image {
+		margin-bottom: 50px;
+		box-shadow: darken($colorType, 10%) 0px 0px 10px;
+	}
+}
+
+// 	Contact
+// =================================================================
+
+.contact {
+	
+	h4 {
+		margin-bottom: 25px;
+	}
+
+	a {
+		color: $colorType;
+		display: inline-block;
+		margin: 10px 0;
+		border-bottom: 2px solid $colorGrey;
+		padding-bottom: 3px;
+
+		&:hover {
+			border-bottom: 2px solid $colorType;
+
+		}
+	}
+
+	@include mq("small", "max-width") {
+		h4 {
+			margin-bottom: 10px;
+		}
+
+		a {
+			clear: both;
+			float: none;
+			width: intrinsic;
+			display: block;
+		}
+
+		#form-messages {
+			font-size: 14px;
+		}
+
+		.form-half {
+			width: 100%;
+			margin-right: 0;
+		}
+	}
+
+}
+

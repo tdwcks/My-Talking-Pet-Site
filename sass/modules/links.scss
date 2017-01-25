@@ -1,0 +1,104 @@
+// =================================================================
+// 	Mediapreview
+// 	Links
+// =================================================================
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link-one {
+	color: #fff;
+	position: relative;
+	margin-right: 75px;
+
+	&:after {
+		content: "";
+		position: absolute;
+		right: -30px;
+		top: 3px;
+		display: block;
+		width: 14px;
+		height: 14px;
+		background-image: url('images/arrow-right.svg');
+		background-size: 100% 100%;
+		background-position: 0 0;
+	}
+
+	&.arrow-down:after {
+		@include transform(rotate(90deg));
+	}
+}
+
+.link-btn-one {
+	padding: 12px 15px 10px 15px;
+	@include border-radius(2px);
+	background: #fff;
+	color: $colorType;
+	display: block;
+	width: intrinsic;
+	text-align: center;
+	color: $colorType;
+	text-transform: uppercase;
+	font-size: 0.833em;
+	letter-spacing: 1px;
+}
+
+.link-btn-two {
+	padding: 15px 15px;
+	background: #000;
+	width: 100%;
+	position: relative;
+	box-sizing: border-box;
+	color: $colorType;
+	display: block;
+	width: intrinsic;
+	text-align: center;
+	color: $colorType;
+	text-transform: uppercase;
+	font-size: 0.88em;
+	letter-spacing: 1px;
+	@include transition(all, 0.2s, ease-in-out);
+	overflow: hidden;
+
+	img {
+		width: 100%;
+		height: auto;
+		position: absolute;
+		@include transition(all, 0.2s, ease-in-out);
+		top: 0;
+		left: 0;
+		z-index: 0;
+		opacity: 0.7;
+	}
+
+	h3 {
+		margin-top: 15px;
+		position: relative;
+		z-index: 10;
+		color: #fff;
+		padding-bottom: 0px;
+		color: $colorType;
+	}
+
+	p {
+		text-transform: none;
+		letter-spacing: 0;
+		font-size: 1.1em;
+	}
+
+	h4 {
+		padding-bottom: 0;
+		width: 100%;
+		padding: 10px 0;
+		background: #fff;
+		font-size: 1.2em;
+		z-index: 10;
+		position: relative;
+	}
+
+	&:hover img {
+		opacity: 0.6;
+	}
+}

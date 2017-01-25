@@ -1,0 +1,45 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+ErrorDocument 404 /index.php
+
+Redirect 301 /8mm.htm http://www.mediapreview.net/8mm
+Redirect 301 /movies.htm http://www.mediapreview.net/movies
+Redirect 301 /8mmDepot.htm http://www.mediapreview.net/depot
+Redirect 301 /8mmDistressFeedback.htm http://www.mediapreview.net/8mm
+Redirect 301 /8mmDistressFreeSample.htm http://www.mediapreview.net/8mm
+Redirect 301 /8mmDistressFAQ.htm http://www.mediapreview.net/8mm
+Redirect 301 /F25dl.php http://www.mediapreview.net/8mm
+Redirect 301 /8mmDistressClipPreviewHD.htm http://www.mediapreview.net/8mm
+Redirect 301 /movies/ClipPreview_content.html http://www.mediapreview.net/8mm
+Redirect 301 /movies/CC264_2.htm http://www.mediapreview.net/movies
+Redirect 301 /4kUpgradeSite.htm http://www.mediapreview.net/8mm
+Redirect 301 /Stock/ConLon/ConLon.htm http://www.mediapreview.net/contemporary-london
+Redirect 301 /stock/vl/vl.htm http://www.mediapreview.net/vintage-london
+Redirect 301 /stock/ve/ve.htm http://www.mediapreview.net/vintage-england
+Redirect 301 /stock/vu/vu.htm http://www.mediapreview.net/vintage-europe
+Redirect 301 /stock/vf/vf.htm http://www.mediapreview.net/vintage-france
+Redirect 301 /Stock/oc/oc.htm http://www.mediapreview.net/vintage-world
+Redirect 301 /ec/dp1.htm https://vimeo.com/184495505
+Redirect 301 /ec https://vimeo.com/184495505
+
+Redirect 301 /4k-upgrade https://www.mediapreview.net/8mm
+Redirect 301 /8mmDistressFreeSample.htm https://www.mediapreview.net/8mm
+Redirect 301 /ec/ https://vimeo.com/184495505
+Redirect 301 /ec/dp_p2.htm https://vimeo.com/184495505
+Redirect 301 /movies/8mmDemo264.htm https://www.mediapreview.net/8mm
+Redirect 301 /movies/ClipPreview_content.html https://www.mediapreview.net/8mm
+Redirect 301 /movies/HATC.html https://www.mediapreview.net/movies
+Redirect 301 /Stock/8mmDepot/8mmDepot.htm https://www.mediapreview.net/depot
+Redirect 301 /Stock/8mmDepot/tc.html https://www.mediapreview.net/depot
+Redirect 301 /movies/eb_content.html https://www.mediapreview.net/movies
+Redirect 301 /movies/FFT264.htm https://www.mediapreview.net/movies
+Redirect 301 /movies/Greenstreams264.htm https://www.mediapreview.net/movies
+Redirect 301 /movies/late_content.html https://www.mediapreview.net/movies
+Redirect 301 /movies/reel_content.html https://www.mediapreview.net/movies
+Redirect 301 /movies/8mm_content.html https://www.mediapreview.net/8mm
+Redirect 301 /movies/ClipPreviewStrip1HD.html https://www.mediapreview.net/8mm
+Redirect 301 /movies/Lock264.htm https://www.mediapreview.net/movies
+Redirect 301 /movies/primary_content.html https://www.mediapreview.net/movies
+Redirect 301 /movies/sports_content.html https://www.mediapreview.net/movies

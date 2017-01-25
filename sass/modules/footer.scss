@@ -1,0 +1,49 @@
+// =================================================================
+// 	Mediapreview
+// 	Footer
+// =================================================================
+
+footer {
+	padding: 50px 0 45px 0;
+	border-top: 1px solid #40A6CF;
+	height: auto;
+	overflow: auto;
+
+	p, a {
+		padding: 0;
+		margin: 0;
+		font-size: 16px;
+		color: #fff;
+		opacity: 0.8;
+	}
+
+	a:hover {
+		color: #fff;
+		opacity: 1;
+	}
+
+	@include mq("small", "max-width") {
+		.col-4 {
+			width: 100%;
+			margin: 3px 0;
+			display: block;
+			clear: both;
+
+			p {
+				margin-bottom: 1px;
+				display: block;
+			}
+
+			a {
+				display: block;
+				margin-bottom: 5px;
+			}
+		}
+	}
+
+	@include mq("extra-small", "max-width") {
+		p, a {
+			font-size: 1em;
+		}
+	}
+}

@@ -1,0 +1,100 @@
+// =================================================================
+// 	Mediapreview
+// 	Header
+// =================================================================
+
+header {
+	width: 100%;
+	height: auto;
+	padding: 15px 0 13px 0;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+
+	.logo {
+		margin: 0;
+		padding: 0;
+		float: left;
+		margin-top: 3px;
+
+		img {
+			padding: 0;
+			width: 200px;
+		}
+	}
+
+	nav {
+		float: right;
+		padding: 0;
+
+		ul li {
+			list-style-type: none;
+			float: left;
+			padding: 0;
+		}
+
+		ul {
+			padding: 0;
+		}
+
+		.facebook, .twitter {
+			margin-top: -5px;
+			width: 32px;
+			height: 32px;
+			display: block;
+			background-image: url('images/facebook.png');
+			background-size: 32px 64px;
+			background-position: 0 0;
+			margin-left: 15px;
+
+			&:hover {
+				background-position: 32px 32px;
+			}
+		}
+
+		.twitter {
+			background-image: url('images/twitter.png');
+		}
+
+		.email {
+			height: 35px;
+			border: 2px solid $colorTwo;
+			color: $colorTwo;
+			padding: 3px 15px;
+			margin-left: 25px;
+			border-radius: 4px;
+			margin-top: 1px;
+
+			&:hover {
+				background: $colorTwo;
+				color: #fff;
+			}
+		}
+	}
+
+	@include mq("small", "max-width") {
+		
+		.email {
+			display: none;
+		}
+
+		.twitter {
+			margin-top: 2px;
+			display: block;
+			margin-left: 5px;
+		}
+	}
+
+	@include mq("nano", "max-width") {
+
+		.logo img {
+			width: 170px;
+		}
+
+		.twitter, .facebook {
+			display: none;
+		}
+	}
+}
