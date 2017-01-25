@@ -45,7 +45,7 @@
 	        nextButton: '.swiper-button-next',
 	        prevButton: '.swiper-button-prev',
 	        paginationClickable: true,
-	        spaceBetween: 0
+	        spaceBetween: 25
     	});
 		}
 		else {
