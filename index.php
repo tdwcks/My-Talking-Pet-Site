@@ -22,7 +22,7 @@
 							<a class="play-store" href="https://play.google.com/store/apps/details?id=info.wobamedia.mytalkingpet.plus&hl=en_GB"></a>
 						</div>
 						<div class="image">
-							<iframe allowfullscreen="" frameborder="0" height="315" src="www.youtube.com/embed/cYMCLz5PQVw" width="420"></iframe>
+							<iframe allowfullscreen="" frameborder="0" height="315" src="http://www.youtube.com/embed/cYMCLz5PQVw" width="420"></iframe>
 						</div>
 					</div> <!-- col-6 -->
 				</div> <!-- row -->
