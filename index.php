@@ -12,7 +12,7 @@
 	<?php include 'includes/header.php'; ?>
 	<article class="home">
 		<section class="hero">
-			<img class="lazy" data-original="images/bg.jpg">
+			<img src="images/bg.jpg">
 			<div class="grid-container">
 				<div class="row">
 					<div class="col-6">
@@ -45,11 +45,11 @@
 			<div class="grid-container">
 				<div class="swiper-container">
 			        <div class="swiper-wrapper">
-			            <div class="swiper-slide"><img class="lazy" data-original="images/iphone7-1.png"></div>
-			            <div class="swiper-slide"><img class="lazy" data-original="images/iphone7-2.png"></div>
-			            <div class="swiper-slide"><img class="lazy" data-original="images/iphone7-3.png"></div>
-			            <div class="swiper-slide"><img class="lazy" data-original="images/iphone7-4.png"></div>
-			            <div class="swiper-slide"><img class="lazy" data-original="images/iphone7-4.png"></div>
+			            <div class="swiper-slide"><img src="images/iphone7-1.png"></div>
+			            <div class="swiper-slide"><img src="images/iphone7-2.png"></div>
+			            <div class="swiper-slide"><img src="images/iphone7-3.png"></div>
+			            <div class="swiper-slide"><img src="images/iphone7-4.png"></div>
+			            <div class="swiper-slide"><img src="images/iphone7-4.png"></div>
 			        </div>
 			        <!-- Add Pagination -->
 			        <div class="swiper-pagination"></div>
