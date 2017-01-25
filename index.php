@@ -31,7 +31,7 @@
 		<section class="about">
 			<div class="grid-container">
 				<div class="col-6">
-					<img class="lazy" data-original="images/logo-white.svg">
+					<img src="images/logo-white.svg">
 				</div>
 				<div class="col-6">
 					<p>For iPad, iPhone and iPod touch, and now all Android devices.</p>
