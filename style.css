@@ -235,11 +235,6 @@ body {
   float: left;
   display: block; }
 
-@font-face {
-  font-family: GT;
-  font-style: normal;
-  font-weight: normal;
-  src: url("sass/fonts/GT-Walsheim-Regular.eot?#iefix") format("embedded-opentype"), url("sass/fonts/GT-Walsheim-Regular.woff2") format("woff2"), url("sass/fonts/GT-Walsheim-Regular.woff") format("woff"), url("sass/fonts/GT-Walsheim-Regular.ttf") format("truetype"), url("sass/fonts/GT-Walsheim-Regular.svg#GT") format("svg"); }
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 18px; }

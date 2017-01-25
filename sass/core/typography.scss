@@ -1,25 +1,11 @@
 // =================================================================
-// 	Mediapreview
+// 	My Talking Pet
 // 	Typography
 // =================================================================
-
-// 		Weights
-// =================================================================
-	$light:	100;
-	$regular: 400;
-	$bold: 600;
-
-	$font-path: '/sass/fonts/' !default;
-
-// 		Font Face yeah
-// =================================================================
-
-	@include font-face(GT, sass/fonts/GT-Walsheim-Regular);
 
 // 		Base Font
 // =================================================================
 	$base-font-family: "Montserrat", sans-serif;
-	$base-font-weight: $regular;
 	$base-line-height: 1.4;
 
 // 		Headings
