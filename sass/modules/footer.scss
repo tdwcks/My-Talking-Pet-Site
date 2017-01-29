@@ -17,6 +17,15 @@ footer {
 		opacity: 0.8;
 	}
 
+	.right {
+		text-align: right;
+		float: right;
+	}
+
+	.center {
+		text-align: center;
+	}
+
 	a:hover {
 		color: #fff;
 		opacity: 1;
@@ -38,6 +47,14 @@ footer {
 				display: block;
 				margin-bottom: 5px;
 			}
+		}
+
+		.right {
+			text-align: left;
+		}
+
+		.center {
+			text-align: left;
 		}
 	}
 

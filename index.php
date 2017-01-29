@@ -22,7 +22,7 @@
 							<a class="play-store" href="https://play.google.com/store/apps/details?id=info.wobamedia.mytalkingpet.plus&hl=en_GB"></a>
 						</div>
 						<div class="image">
-							<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/cYMCLz5PQVw" width="420"></iframe>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/DfudYeGxM2o?rel=0" frameborder="0" allowfullscreen></iframe>
 						</div>
 					</div> <!-- col-6 -->
 				</div> <!-- row -->
@@ -34,10 +34,17 @@
 					<img src="images/logo-white.svg">
 				</div>
 				<div class="col-6">
-					<p>For iPad, iPhone and iPod touch, and now all Android devices.</p>
-					<p>Take a photo or choose from your photo gallery, then speak into the microphone to see your pet realistically speak back to you!</p>
+					<p>The #1 hit app! Take a photo or choose from your photo gallery, then speak into the microphone to see your pet realistically speak back to you.</p>
 					<p>Share it as a video on Facebook, or email it as a special greeting to your friends and family.</p>
-					<p>Change the voice from big dog to little cat or anything in between.</p>
+					<p>Change the voice from big dog to little cat or anything in between...</p>
+					<h3>Now with new features!</h3>
+					<ul>
+						<li>Turn your real life pet into a digital personal assistant. See them come to life on your phone as a widget on the lock screen. Have them tell you the weather forecast, news headlines, or even get them to remind you of your appointments!</li>
+						<li>iMessage integration, send your messages using your talking pet</li>
+						<li>New look and feel</li>
+						<li>Custom cropping of photos</li>
+						<li>Record longer, higher quality videos</li>
+					</ul>
 				</div>
 			</div>
 		</section>
@@ -48,7 +55,6 @@
 			            <div class="swiper-slide"><img src="images/iphone7-1.png"></div>
 			            <div class="swiper-slide"><img src="images/iphone7-2.png"></div>
 			            <div class="swiper-slide"><img src="images/iphone7-3.png"></div>
-			            <div class="swiper-slide"><img src="images/iphone7-4.png"></div>
 			            <div class="swiper-slide"><img src="images/iphone7-4.png"></div>
 			        </div>
 			        <!-- Add Pagination -->

@@ -3,11 +3,8 @@
 		<div class="col-4">
 			<p>&#xa9; WOBA Media <?php echo date("Y"); ?></p>
 		</div>
-		<div class="col-4">
-			<a href="mailto:hello@wobamedia.info" target="_top">hello@wobamedia.info</a>
-		</div>
-		<div class="col-4">
-			<a href="http://www.miln.co" target="_top">Site Made by Miln</a>
+		<div class="col-4 right">
+			<a class="right" href="mailto:hello@wobamedia.info" target="_top">hello@wobamedia.info</a>
 		</div>
 	</div>
 </footer>
