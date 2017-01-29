@@ -42,7 +42,7 @@
 	        nextButton: '.swiper-button-next',
 	        prevButton: '.swiper-button-prev',
 	        paginationClickable: true,
-	        spaceBetween: 25
+	        spaceBetween: 0
     	});
 		}
 		else {
