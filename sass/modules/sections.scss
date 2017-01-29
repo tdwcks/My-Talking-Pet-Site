@@ -206,5 +206,16 @@
 	}
 }
 
+.screen-slider {
+	.grid-container {
+		width: 100%;
+
+		.swiper-slide {
+			padding: 25px;
+			box-sizing: border-box;
+		}
+	}
+}
+
 
 
