@@ -180,6 +180,10 @@
 	@include mq("small", "max-width") {
 		padding: 0;
 
+		img {
+			margin-top: 50px;
+		}
+
 		.col-6 {
 			width: 100%;
 

@@ -903,6 +903,8 @@ a {
   @media (max-width: 960px) {
     .about {
       padding: 0; }
+      .about img {
+        margin-top: 50px; }
       .about .col-6 {
         width: 100%; }
         .about .col-6 p:first-child {
