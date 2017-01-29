@@ -169,6 +169,10 @@
     height: 100%;
     padding-top: 25px;
     overflow: visible;
+
+    @include mq("small", "max-width") {
+      overflow: hidden;
+    }
 }
 
 .swiper-slide {

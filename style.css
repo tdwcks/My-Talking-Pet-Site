@@ -495,6 +495,9 @@ small, .font_small {
   height: 100%;
   padding-top: 25px;
   overflow: visible; }
+  @media (max-width: 960px) {
+    .swiper-container {
+      overflow: hidden; } }
 
 .swiper-slide {
   text-align: center;
@@ -549,7 +552,8 @@ footer {
         display: block;
         margin-bottom: 5px; }
     footer .right {
-      text-align: left; }
+      text-align: left;
+      float: left; }
     footer .center {
       text-align: left; } }
   @media (max-width: 760px) {
@@ -852,14 +856,6 @@ a {
         margin-left: -120%; }
       .hero .col-8, .hero .col-6 {
         width: 100%; } }
-  @media (max-width: 350px) {
-    .hero h1 {
-      font-size: 1.5em; }
-    .hero .button-holder {
-      width: 100%; }
-    .hero .ios-store, .hero .play-store {
-      width: 130px;
-      height: 40px; } }
   @media screen and (max-height: 600px) {
     .hero {
       width: 100%;
@@ -868,6 +864,14 @@ a {
       .hero img {
         width: 100%;
         height: auto; } }
+  @media (max-width: 350px) {
+    .hero h1 {
+      font-size: 1.5em; }
+    .hero .button-holder {
+      width: 100%; }
+    .hero .ios-store, .hero .play-store {
+      width: 130px;
+      height: 40px; } }
 
 .about {
   padding: 80px 0 50px 0;
