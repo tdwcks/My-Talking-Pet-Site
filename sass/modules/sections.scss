@@ -209,19 +209,19 @@
 	}
 }
 
-.screen-slider {
-	.grid-container {
-		width: 100%;
+@include mq("small", "max-width") {
 
-		.swiper-slide {
-			padding: 25px;
-			box-sizing: border-box;
-		}
+	.screen-slider {
+		.grid-container {
+			width: 100%;
 
-		.swiper-slide img {
-			
+			.swiper-slide {
+				padding: 25px;
+				box-sizing: border-box;
+			}
 		}
 	}
+
 }
 
 
