@@ -554,9 +554,6 @@ footer {
       footer .col-4 p {
         margin-bottom: 1px;
         display: block; }
-      footer .col-4 a {
-        display: block;
-        margin-bottom: 5px; }
     footer .right {
       text-align: left;
       float: left; }
@@ -671,17 +668,26 @@ header {
         background: #F27555;
         color: #fff; }
   @media (max-width: 960px) {
-    header .email {
-      display: none; }
-    header .twitter {
-      margin-top: 2px;
+    header .logo {
+      margin-top: 0;
       display: block;
-      margin-left: 5px; } }
-  @media (max-width: 350px) {
-    header .logo img {
-      width: 170px; }
-    header .twitter, header .facebook {
-      display: none; } }
+      width: 35px;
+      height: 35px;
+      float: left;
+      background-image: url("images/logo-symbol.svg");
+      background-size: 100% 100%;
+      background-position: 0 0; }
+      header .logo img {
+        display: none; }
+    header nav {
+      padding-top: 5px; }
+    header nav ul li {
+      float: right;
+      margin-top: 0; }
+    header nav ul li:last-child {
+      margin-top: 4px;
+      margin-right: 4px;
+      float: left; } }
 
 a {
   cursor: pointer;

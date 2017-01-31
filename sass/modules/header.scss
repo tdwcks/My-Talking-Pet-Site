@@ -75,26 +75,35 @@ header {
 	}
 
 	@include mq("small", "max-width") {
-		
-		.email {
-			display: none;
-		}
 
-		.twitter {
-			margin-top: 2px;
+		.logo {
+			margin-top: 0;
 			display: block;
-			margin-left: 5px;
-		}
-	}
+			width: 35px;
+			height: 35px;
+			float: left;
+			background-image: url('images/logo-symbol.svg');
+			background-size: 100% 100%;
+			background-position: 0 0;
 
-	@include mq("nano", "max-width") {
-
-		.logo img {
-			width: 170px;
+			img {
+				display: none;
+			}
 		}
 
-		.twitter, .facebook {
-			display: none;
+		nav {
+			padding-top: 5px;
 		}
+
+		nav ul li {
+			float: right;
+			margin-top: 0;
+		}
+
+		nav ul li:last-child {
+			margin-top: 4px;
+			margin-right: 4px;
+			float: left;
+		}	
 	}
 }

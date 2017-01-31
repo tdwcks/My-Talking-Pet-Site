@@ -4,7 +4,7 @@
 			<p>&#xa9; WOBA Media <?php echo date("Y"); ?></p>
 		</div>
 		<div class="col-4 right">
-			<a class="right" href="mailto:hello@wobamedia.info" target="_top">hello@wobamedia.info</a>
+			<p class="right">Website made by <a href="http://www.miln.co">Miln</a></p>
 		</div>
 	</div>
 </footer>
